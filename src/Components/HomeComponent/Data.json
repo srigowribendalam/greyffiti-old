@@ -1,0 +1,77 @@
+{
+    "details": [
+      {
+        "notifications":7,
+        "name":"Ayasha",
+        "icon":"../images/authoricon1.svg",
+                    "articles":[
+                     { 
+                       "id": 1,
+                       "authorIcon":"../images/authoricon1.svg",
+                       "date":"Jan 04, 2021",
+                       "projectName": "Project1",
+                       "text":"Information about the project",
+                       "image":"../images/project1.svg",
+                       "likes":14,
+                       "comments":2,
+                       "views":7
+                     },
+                     { 
+                        "id": 2,
+                        "authorIcon":"../images/authoricon1.svg",
+                        "date":"Jan 20, 2021",
+                        "projectName": "Project2",
+                        "text":"Information about the project",
+                        "image":"../images/project1.svg",
+                        "likes":15,
+                        "comments":3,
+                        "views":4
+                      },
+                      { 
+                        "id": 3,
+                        "authorIcon":"../images/authoricon1.svg",
+                        "date":"Feb 05, 2021",
+                        "projectName": "Project3",
+                        "text":"Information about the project",
+                        "image":"../images/project1.svg",
+                        "likes":18,
+                        "comments":8,
+                        "views":9
+                      },
+                      { 
+                        "id": 4,
+                        "authorIcon":"../images/authoricon1.svg",
+                        "date":"Jan 10, 2021",
+                        "projectName": "Project4",
+                        "text":"Information about the project",
+                        "image":"../images/article01.jpg",
+                        "likes":20,
+                        "comments":10,
+                        "views":6
+                      },
+                      { 
+                        "id": 5,
+                        "authorIcon":"../images/authoricon1.svg",
+                        "date":"Jan 06, 2021",
+                        "projectName": "Project4",
+                        "text":"Information about the project",
+                        "image":"../images/article01.jpg",
+                        "likes":19,
+                        "comments":8,
+                        "views":8
+                      },
+                      { 
+                        "id": 6,
+                        "authorIcon":"../images/authoricon1.svg",
+                        "date":"Feb 04, 2021",
+                        "projectName": "Project4",
+                        "text":"Information about the project",
+                        "image":"../images/article01.jpg",
+                        "likes":10,
+                        "comments":6,
+                        "views":2
+                      }
+                    ]
+                    }
+    ]
+}

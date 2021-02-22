@@ -1,0 +1,39 @@
+.login{
+    margin-top: 6rem;
+}
+.btn.btn-info{
+    background-color: #2DC8A8 !important;
+    color: white;
+    border-color: #2DC8A8 !important;
+    width:15rem;
+    }
+.btn.btn-info:hover{
+    background-color: #2DC8A8 !important;
+    color: white;
+    border-color: #2DC8A8 !important;
+    }
+.btn.btn-secondary{
+    background-color: #EEF4FE !important;
+    color: black;
+    border-color: #EEF4FE !important;
+    margin-left:1rem;
+}
+.logo{
+    position:absolute;
+    background:transparent;
+    top:4rem;
+    left:4rem;
+    z-index:1;
+}
+.heading{
+    position:absolute;
+    background:transparent;
+    top: 12rem;
+    left:5rem;
+    z-index:1;
+}
+.form{
+    background-color: #EEF4FE !important;
+    border-color:#EEF4FE !important;
+    border-radius:1px !important;
+}

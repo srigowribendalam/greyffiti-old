@@ -1,0 +1,19 @@
+.basic-card{
+    margin-top:4rem;
+    margin-left:12.5rem;
+    margin-right:12rem;
+  }
+._card{
+    padding:20px;
+    border-radius: 8px;
+}
+._card:hover{
+  transform:scale(1.1);
+}
+  @media screen and (max-width:960px){
+    .basic-card{
+      margin-top:3rem;
+      margin-left:2rem;
+      margin-right:2rem;
+    }
+  }

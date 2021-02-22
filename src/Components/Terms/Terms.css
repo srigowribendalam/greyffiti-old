@@ -1,0 +1,86 @@
+.termsImage{
+    width:45%;
+  }
+  .termstext{
+    margin-left:4.5rem;
+    font-size:26.5px;
+  }
+  .termsleft {
+    position:absolute;
+    left:75px;
+    margin-top: -27rem;
+    font-size: 60px;
+    color:#4FD84F;
+    } 
+  .heading{
+    font-size:46px;
+    }
+  .fab-heading-left {
+     position:absolute;
+     left:4.68rem;
+     margin-top: -170px;
+     color:white;
+     }
+  .termsheading{
+     font-size: 30px;
+     } 
+     .signupbutton{
+        background-color: #4FD84F; 
+        width: 150px;
+        border-color: #4FD84F;
+        border-radius: 15px;
+        text-align: center;
+        margin:auto;
+        padding-bottom: 0.7rem;
+      }
+      .signupbutton:hover{
+        background-color: #4FD84F; 
+        border-color: #4FD84F;
+      }
+@media screen and (max-width: 960px) {
+    .termsImage{
+        width:100%;
+      }
+    .termsleft {
+        position:absolute;
+        left:1rem;
+        margin-top: -50vw;
+        font-size:7vw;
+        color:#4FD84F
+      }
+    .termstext{
+        margin-left:1rem;
+      }
+      .heading{
+        font-size:46px;
+      }
+      .terms1Image{
+        margin-top:2rem;
+        width: 100%;
+        height: 100%;
+      }
+      .fab-heading-left {
+        position:absolute;
+        left:1rem;
+        margin-top: -3.5rem;
+        color:white;
+        line-height: 1rem;
+       }
+       .termsheading{
+        font-size:1rem;
+      }
+       .fab-text{
+         font-size:3vw;
+       }
+       .signupbutton{
+        background-color: #4FD84F; 
+       width: 20vw;
+       height:6vw;
+       border-color: #4FD84F;
+       border-radius: 0.5rem;
+       text-align: center;
+       margin-top:-0.13rem;
+       padding:0.1rem;
+       font-size:3vw;
+       }
+}
