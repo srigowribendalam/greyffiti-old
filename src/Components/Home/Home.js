@@ -42,7 +42,7 @@ export default function Home() {
       <Slide left>
           <div className="text-heading">
             <b className="heading-size">Share,<br />Connect,<br />Collabarate</b><br /><br />
-            <p className="p-text">Graffiti, Enabling you to put your work, infront of the right people at right time.</p>
+            <p className="p-text">Greyffiti, Enabling you to put your work, infront of the right people at right time.</p>
           </div>
           </Slide>
         </Col>
@@ -65,7 +65,7 @@ export default function Home() {
               <Col md={4} xs={12} className="work-together">
                 <Rotate top right>
                 <h4>Work Together</h4>
-                <p style={{color:"rgb(34, 129, 238)",marginTop:"1rem"}}>Like-minded people, are hard to find; but not on Graffiti! Work with people whose work sparks the fire in you!</p><br/>
+                <p style={{color:"rgb(34, 129, 238)",marginTop:"1rem"}}>Like-minded people, are hard to find; but not on Greyffiti! Work with people whose work sparks the fire in you!</p><br/>
                 <Button variant="default" className="get-started">Get Started</Button>
                 </Rotate>
                 </Col>
@@ -111,7 +111,7 @@ export default function Home() {
                 <Fade top>
                 <Card className="box1">
                 <h4>Collabarator</h4>
-                <p className="text-color">Collabarating on Graffiti is real yet virtual. Collabarate with artists from anywhere and everywhere!</p>
+                <p className="text-color">Collabarating on Greyffiti is real yet virtual. Collabarate with artists from anywhere and everywhere!</p>
                 </Card></Fade><br/>
                 <Fade bottom>
                 <Card className="box1">
@@ -127,7 +127,7 @@ export default function Home() {
           <div>
           <img className="contact-image" src={contact} />
           <div className="contact1">
-            <div style={{display:"flex"}}><h5>Make work more fun together with Graffiti!</h5> <Button variant="default" style={{marginLeft:"3rem"}}>Learn more</Button></div>
+            <div style={{display:"flex"}}><h5>Make work more fun together with Greyffiti!</h5> <Button variant="default" style={{marginLeft:"3rem"}}>Learn more</Button></div>
           </div>
           </div>
           <div  className="work-together-image">
@@ -140,7 +140,7 @@ export default function Home() {
               <Col md={4} xs={12} className="work-together">
                 <Rotate top right>
                 <h4>Work Together</h4>
-                <p style={{color:"rgb(34, 129, 238)",marginTop:"1rem"}}>Like-minded people, are hard to find; but not on Graffiti! Work with people whose work sparks the fire in you!</p><br/>
+                <p style={{color:"rgb(34, 129, 238)",marginTop:"1rem"}}>Like-minded people, are hard to find; but not on Greyffiti! Work with people whose work sparks the fire in you!</p><br/>
                 <Button variant="default">Get Started</Button>
                 </Rotate>
                 </Col>
@@ -176,7 +176,7 @@ export default function Home() {
                 <p>Have questions?</p>
                 <h6 style={{marginTop:"-1rem"}}><b>+919966908431</b></h6>
                 </div>
-                <p>E-mail: info@graffiti.com</p>
+                <p>E-mail: info@greyffiti.com</p>
                 </div>
               </Col>
               <Col md={5}>
