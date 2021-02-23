@@ -4,6 +4,9 @@
         "notifications":7,
         "name":"Ayasha",
         "icon":"../images/authoricon1.svg",
+        "likes":8,
+        "views":6,
+        "totalComments":214,
                     "articles":[
                      { 
                        "id": 1,
@@ -12,9 +15,9 @@
                        "projectName": "Project1",
                        "text":"Information about the project",
                        "image":"../images/project1.svg",
-                       "likes":14,
+                       "likes":8,
                        "comments":2,
-                       "views":7
+                       "views":6
                      },
                      { 
                         "id": 2,
@@ -70,6 +73,56 @@
                         "likes":10,
                         "comments":6,
                         "views":2
+                      }
+                    ],
+                    "comments":[
+                      {
+                        "icon":"../images/authoricon1.svg",
+                        "time":"3 hours ago",
+                        "name":"Ayasha",
+                        "text":"Scratch off globe, for when you want to wipe out any country that displeases you but lack the weaponary to do so.",
+                        "upload":35,
+                        "download":40
+                      },
+                      {
+                        "icon":"../images/authoricon1.svg",
+                        "time":"1 hour ago",
+                        "name":"Ayasha",
+                        "text":"Scratch off globe, for when you want to wipe out any country that displeases you but lack the weaponary to do so.",
+                        "upload":35,
+                        "download":40
+                      },
+                      {
+                        "icon":"../images/authoricon1.svg",
+                        "time":"3 hours ago",
+                        "name":"Ayasha",
+                        "text":"Scratch off globe, for when you want to wipe out any country that displeases you but lack the weaponary to do so.",
+                        "upload":35,
+                        "download":40
+                      },
+                      {
+                        "icon":"../images/authoricon1.svg",
+                        "time":"3 hours ago",
+                        "name":"Ayasha",
+                        "text":"Scratch off globe, for when you want to wipe out any country that displeases you but lack the weaponary to do so.",
+                        "upload":35,
+                        "download":40
+                      },
+                      {
+                        "icon":"../images/authoricon1.svg",
+                        "time":"1 hour ago",
+                        "name":"Ayasha",
+                        "text":"Scratch off globe, for when you want to wipe out any country that displeases you but lack the weaponary to do so.",
+                        "upload":35,
+                        "download":40
+                      },
+                      {
+                        "icon":"../images/authoricon1.svg",
+                        "time":"3 hours ago",
+                        "name":"Ayasha",
+                        "text":"Scratch off globe, for when you want to wipe out any country that displeases you but lack the weaponary to do so.",
+                        "upload":35,
+                        "download":40
                       }
                     ]
                     }

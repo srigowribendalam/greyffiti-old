@@ -1,6 +1,7 @@
 import { React } from 'react';
 import Data from './Data.json';
 import { Card, Col, Row, Button } from 'react-bootstrap';
+import {Link } from 'react-router-dom';
 import './HomeComponent.css';
 import { FaRetweet } from "react-icons/fa";
 import { BiRepost } from "react-icons/bi";
@@ -38,6 +39,7 @@ export default class HomeComponent extends Component {
                                 <Col md={6} xs={12} style={{ marginTop: "3rem" }}> {data.articles.map((article, id) => {
                                     if ((id % 2) == 0) {
                                         return (
+                                            <Link to={`/description/${article.id}`} style={{color:"black"}}>
                                             <div>
                                                 <div>
                                                     <img src={author} style={{ width: "40px", height: "40px" }} /> <img src={link} style={{ float: "right", marginTop: "2rem", marginRight: "3.5rem" }} /></div>
@@ -50,6 +52,7 @@ export default class HomeComponent extends Component {
                                                     Read more
                                     </Button><br /><br />
                                             </div>
+                                            </Link>
                                         )
                                     }
                                 })}
@@ -57,6 +60,7 @@ export default class HomeComponent extends Component {
                                 <Col md={6} xs={12} style={{ marginTop: "0.5rem" }}> {data.articles.map((article, id) => {
                                     if ((id % 2) != 0) {
                                         return (
+                                            <Link to={`/description/${article.id}`} style={{color:"black"}}>
                                             <div>
                                                 <div>
                                                     <img src={author} style={{ width: "40px", height: "40px" }} /> <img src={link} style={{ float: "right", marginTop: "2rem", marginRight: "3.5rem" }} /></div>
@@ -69,6 +73,7 @@ export default class HomeComponent extends Component {
                                                     Read more
                                     </Button><br /><br />
                                             </div>
+                                            </Link>
                                         )
                                     }
                                 })}

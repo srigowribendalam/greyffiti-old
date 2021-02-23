@@ -3,6 +3,7 @@ import { Route, Switch } from 'react-router-dom';
 import Home from '../Components/Home/Home';
 import Login from '../Components/Login/Login';
 import ForgotPassword from './ForgotPassword';
+import Description from './HomeComponent/Description';
 import HomeComponent from './HomeComponent/HomeComponent';
 import Pricing from './Pricing/Pricing';
 import PrivacyPolicy from './PrivacyPolicy/PrivacyPolicy';
@@ -24,6 +25,7 @@ export default class Routes extends React.Component {
         <Route path="/pricing" component={Pricing} />
         <Route path="/privacypolicy" component={PrivacyPolicy} />
         <Route path="/terms" component={TermsConditions} />
+        <Route  path="/description/:id" component={Description} />
       </Switch >
     );
   };
