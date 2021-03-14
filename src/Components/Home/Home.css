@@ -1,6 +1,6 @@
 .home-image1{
   float:right;
-  margin-top:1rem;
+  margin-top:3.5rem;
   width:90%;
   height:85%;
 }
@@ -18,7 +18,7 @@ font-style: poppins;
 }
 .down-arrow{
 position:relative;
-top:-3.5rem;
+top:-0.5rem;
  color:#062C51;
 }
 .top-box{
@@ -35,10 +35,17 @@ top:-3.5rem;
   background-image:linear-gradient(to top right, rgb(2, 2, 36),#1C7DE0);
   color:white;
 }
+.card_image{
+  width:40px;
+  margin-bottom:0.5rem;
+}
+.card_image:hover{
+ filter:invert(0) sepia(3);
+}
 .box1{
   padding:20px;
   border-radius: 8px;
-  height:150px;
+  height:250px;
 }
 .box1:hover{
   background-image:linear-gradient(to top right, rgb(2, 2, 36),#1C7DE0);
@@ -50,8 +57,9 @@ top:-3.5rem;
   margin-right:10rem;
  }
 .work{
-  height:80%;
-  width:80%;
+  height:100%;
+  width:100%;
+  margin-top:-1.5rem;
   margin-left:-3rem;
 }
 .work-together{
@@ -74,21 +82,29 @@ top:-3.5rem;
   margin-right:10rem;
 }
 .engage-image{
-  margin-top:0.1rem;
-  width:85%;
-  height:85%;
-  margin-left:6rem;
+  margin-top:0.5rem;
+  width:110%;
+  height:130%;
+  margin-left:0.2rem;
+}
+.card_icon{
+  margin-top:-0.5rem;
+  padding:0.5rem;
+  width:80px;
+  height:80px;
+}
+.card_icon:hover{
+ fill:white;
 }
 .engage-top{
-  margin-top:6rem;
+  margin-top:3rem;
 }
 .four-boxes{
   margin-left:12.5rem;
   margin-right:12rem;
 }
 .platform{
-  background-color:#dff6fc;
-  margin-top:5.5rem;
+  margin-top:14rem;
 }
 .contact-image{
   width:100%;
@@ -96,8 +112,8 @@ top:-3.5rem;
 }
 .contact1{
   position:absolute;
-  margin-top:-4.5rem;
-  margin-left: 28rem;
+  margin-top:-8rem;
+  margin-left: 25rem;
 }
 .contact_btn{
   position:absolute;
@@ -131,11 +147,16 @@ font-size:50px;
 font-style: poppins;
 }
 .text-color{
-    color:rgb(34, 129, 238);
     font-size:14.5px;
 }
 .text-color:hover{
     color:white;
+}
+.text-colors{
+  font-size:14.5px;
+}
+.text-colors:hover{
+  color:white;
 }
 .box{
     padding:20px;
@@ -245,8 +266,8 @@ font-style: poppins;
    margin-right:1rem;
   }
   .work{
-    height:90%;
-    width:90%;
+    height:100%;
+    width:100%;
     margin-left:1rem;
   }
   .work-together{

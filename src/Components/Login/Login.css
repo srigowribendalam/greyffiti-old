@@ -18,6 +18,9 @@
     border-color: #EEF4FE !important;
     margin-left:1rem;
 }
+.btn.btn-secondary:hover{
+    color: black !important;
+}
 .logo{
     position:absolute;
     background:transparent;

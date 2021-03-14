@@ -57,7 +57,7 @@
 import { React, Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Button, Navbar } from "react-bootstrap";
-import logo from './images/logo.svg';
+import logo from './images/Greyffiti-13.jpg';
 import './NavBar.css';
 
 export default class NavBar extends Component {
@@ -71,23 +71,29 @@ export default class NavBar extends Component {
       <Navbar className="nav-height">
         <nav className="nav">
           <Link to="/">
-            <img className="navbar-logo" src={logo} /></Link>
-          <div className="menu-icon" onClick={this.handleClick}>
+            <img className="navbar-logo" src={logo} style={{marginLeft:"-2rem",width:"175px",marginTop:"-3.3rem"}}/></Link>
+          {/* <div className="menu-icon" onClick={this.handleClick}>
             <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
-          </div>
-          <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
-            <li>
-            <Link to="/home" className='nav-links'>Home</Link>
-              <Link to="/aboutus" className='nav-links'>About us</Link>
-              <Link to="/features"  className='nav-links'>Features</Link>
-              <Link to="/pricing" className='nav-links'>Pricing</Link>
-              <Link to="/support"  className='nav-links'>Support</Link>
-              <Link to="/myaccount"  className='nav-links nav-marginright'>My Account</Link>
-              <Link to="/login">
+          </div> */}
+          <ul >
+            <li className="margintop" >
+            <Link to="/" style={{marginLeft:"7.5rem"}} className='nav-links'>Home</Link>
+              <Link to="/aboutus" className='nav-links '>About us</Link>
+              <Link to="/features"  className='nav-links  '>Features</Link>
+              <Link to="/pricing" className='nav-links '>Pricing</Link>
+          {/* <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
+            <li >
+            <Link to="/" style={{marginLeft:"5rem"}} className='nav-links'>Home</Link>
+              <Link to="/aboutus" className='nav-links '>About us</Link>
+              <Link to="/features"  className='nav-links  '>Features</Link>
+              <Link to="/pricing" className='nav-links '>Pricing</Link>
+              <Link style={{color:"white"}} className='nav-links'>Support</Link>
+              <Link style={{color:"white"}}  className='nav-links nav-marginright'>My Account</Link> */}
+              {/* <Link to="/login">
               <Button variant="primary">Login</Button></Link>
               <text> &nbsp;or</text>
               <Link to="/register">
-              <Button variant="primary" className="create-btn">Create Account</Button></Link>
+              <Button variant="primary" className="create-btn">Create Account</Button></Link> */}
             </li>
           </ul>
         </nav>

@@ -76,6 +76,24 @@
     float:right;
     margin-right:3.5rem;
     }
+    .btn.btn-secondary{
+        background-color: #EEF4FE !important;
+        color: black;
+        border-color: #EEF4FE !important;
+        margin-left:1rem;
+    }
+    .btn.btn-secondary:hover{
+        color: black !important;
+    }
+    .btn.btn-secondary1{
+        background-color: #d0d5d8 !important;
+        color: black;
+        border-color: #d0d5d8 !important;
+        margin-left:1rem;
+    }
+    .btn.btn-secondary1:hover{
+        color: black !important;
+    }
 .header{
 display:flex;
     }

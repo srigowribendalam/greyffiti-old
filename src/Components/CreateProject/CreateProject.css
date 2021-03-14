@@ -1,0 +1,67 @@
+.form1{
+    background-color: #F8F9FA !important;
+    border-color:#F8F9FA !important;
+    border-radius:1px !important;
+    width:500px;
+    height:36px;
+}
+.form_{
+    background-color: #F8F9FA !important;
+    border-color:#F8F9FA !important;
+    border-radius:1px !important;
+    width:180px;
+    height:36px;
+}
+.form_Control{
+    background-color: #F8F9FA !important;
+    border-color:#F8F9FA !important;
+    border-radius:1px !important;
+    width:500px;
+    height:36px;
+}
+.form_text{
+    color:grey;
+}
+.description_card{
+    padding:20px;
+}
+.btn.btn-default2{
+    background-color: #d0d5d8;
+    border-color: #d0d5d8;
+    border-radius: 1px;
+    text-align: center;
+    float:right;
+    margin:auto;
+    color:black;
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
+  .btn.btn-default2:hover{
+    background-color: #d0d5d8;
+    border-color: #d0d5d8;
+    color:black;
+  }
+  .btn.btn-info2{
+    background-color: #2DC8A8 !important;
+    color: white;
+    border-color: #2DC8A8 !important;
+    border-radius: 1px;
+    width:8rem;
+    height:32px;
+    float:right;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    }
+.btn.btn-info2:hover{
+    background-color: #2DC8A8 !important;
+    color: white;
+    border-color: #2DC8A8 !important;
+    }
+.bottom-footer{
+    display:grid;
+    grid-template-columns:repeat(24,auto);
+    grid-gap:5px;
+    padding:4px;
+    margin-top:2rem;
+    margin-right: 8rem;
+}

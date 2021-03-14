@@ -1,0 +1,22 @@
+.forms{
+    background-color: #F8F9FA !important;
+    border-color:#F8F9FA !important;
+    border-radius:1px !important;
+    width:500px;
+    height:36px;
+}
+.btn.btn-info3{
+    background-color: #2DC8A8 !important;
+    color: white;
+    border-color: #2DC8A8 !important;
+    border-radius: 1px;
+    width:8rem;
+    height:32px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    }
+.btn.btn-info3:hover{
+    background-color: #2DC8A8 !important;
+    color: white;
+    border-color: #2DC8A8 !important;
+    }

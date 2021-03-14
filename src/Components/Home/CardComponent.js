@@ -49,7 +49,7 @@ export default function CardComponent() {
       <Col md={4} xs={12}>
         <Slide left>
           <Card className="card-box">
-          <img src={collaborate} style={{width:"40px",marginBottom:"0.5rem"}}  />
+          <img src={collaborate} className="card_image" />
             <h4>Collabarate</h4>
             <p className="text-color">Collaborate with people whose work matches your vibes, and let your work shine!</p>
           </Card><br/>
@@ -59,7 +59,7 @@ export default function CardComponent() {
       <Col md={4} xs={12}>
         <Slide bottom>
           <Card className="card-box">
-            <img src={workanywhere} style={{width:"40px",marginBottom:"0.5rem"}} />
+            <img src={workanywhere} className="card_image" />
             <h4>Work Anywhere</h4>
             <p className="text-color">With Graffiti, location is no more a boundary!</p>
           </Card><br/>
@@ -68,7 +68,7 @@ export default function CardComponent() {
       <Col md={4} xs={12}>
         <Slide right>
           <Card className="card-box">
-          <img src={engageicon} style={{width:"40px",marginBottom:"0.5rem"}} />
+          <img src={engageicon} className="card_image" />
             <h4>Engage on the go</h4>
             <p className="text-color">Engagement works on your side, and Graffiti makes it so much easier!</p>
           </Card></Slide>

@@ -21,10 +21,9 @@
     margin-top: 5rem;
 } */
 .navbar-logo{
-    left: 3rem;
     cursor:pointer;
-    width:5%;
-    top:0.8rem;
+    width:15%;
+    top:0.4rem;
     position:absolute;
 }
 .nav{
@@ -38,7 +37,6 @@
     grid-template-columns:repeat(6,auto);
     grid-gap:10px;
     list-style:none;
-    text-align:center;
     text-decoration: none;
     width:100vw;
     justify-content:end;
@@ -50,6 +48,9 @@
     transition:all 0.2s ease-out;
     padding: 1.2rem;
 }
+.margintop{
+    margin-top:1.8rem;
+}
 .nav-links:hover{
     color: #062C51; 
     font-weight: 600;
@@ -57,7 +58,7 @@
     text-decoration: none;
 }
  .nav-marginright{
-    margin-right:13rem ;
+    margin-right:35em ;
  }
 .btn.btn-primary{
     border-radius: 40px;

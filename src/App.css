@@ -4,3 +4,8 @@
 .background-white{
     background-color: white;  
 }
+.form{
+    background-color: #EEF4FE !important;
+    border-color:#EEF4FE !important;
+    border-radius:1px !important;
+}

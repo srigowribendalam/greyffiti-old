@@ -1,0 +1,63 @@
+.contact-card{
+    width: 1000px;
+    height:33.3rem;
+    margin-top: 2.8rem;
+  }
+.contactleft {
+    position:absolute;
+    left:24rem;
+    top: 3rem;
+    color:white;
+    font-size: 100px;
+  }
+  .form-text{
+    position:absolute;
+    left:11rem;
+    top:10rem;
+    color:white;
+  }
+  .input{
+    width:280px;
+    margin-bottom: 20px;
+    border-color:1px solid grey;
+
+  }
+  .text-area{
+    width:280px;
+    margin-bottom: 20px;
+    border-color:1px solid grey; 
+    overflow-y: scroll;
+    height: 90px;
+    background-size: cover;
+    resize:none; 
+   }
+   .contact-button{
+    background-color: #4FD84F; 
+    width: 7.5rem;
+    height:34px;
+    border-color: #4FD84F;
+    border-radius: 30px;
+    text-align: center;
+    margin:auto;
+    color:white;
+    padding-top:1px;
+  }
+.contact-button:hover{
+    background-color: #4FD84F; 
+    border-color: #4FD84F;
+    color:white;
+  }
+ @media screen and (max-width: 960px) {
+    .contact-card{
+        width: 300%;
+        height: 50rem;
+        margin-top: 2.5rem;
+      }
+    .contactleft {
+        position:absolute;
+        left:16rem;
+        margin-top: -51.8rem;
+        color:white;
+        font-size: 40vw;
+       }   
+ }

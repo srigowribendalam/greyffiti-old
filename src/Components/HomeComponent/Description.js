@@ -1,7 +1,7 @@
 import { React } from 'react';
 import Data from './Data.json';
 import { Card, Col, Row, Button } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Link,Route } from 'react-router-dom';
 import './HomeComponent.css';
 import { Component } from 'react';
 import Header1 from './Header1';
@@ -16,15 +16,17 @@ import share from '../images/share.svg';
 import link from '../images/link.svg';
 import grid from '../images/grid.svg';
 import slide from '../images/slide.svg';
+import insight from '../images/insight.svg';
 import { FaRegEye } from "react-icons/fa";
+import { GoIssueOpened } from "react-icons/go";
+import IssueScreen from './IssueScreen';
 
 
-export default class Description extends Component {
-    constructor(props) {
-        super(props);
-    }
+export default function Description (props) {
 
-    render() {
+    const { events, match } = props;
+    let { path, url } = match;
+
         return (
             <div>
                 <Header1 />
@@ -54,26 +56,13 @@ export default class Description extends Component {
                                                 <p style={{ marginTop: "-2.5rem", marginLeft: "4rem" }}>{article.projectName}<br /><p style={{ fontSize: "12px", fontColor: "lightgrey" }}>{article.date}</p></p>
                                                 <p>{article.text}</p>
                                                 <img src={project1} style={{ width: "575px", height: "400px", marginTop: "-3rem" }} />
-                                                <p style={{ marginTop: "-2rem" }}><img src={download} style={{ width: "16px", marginRight: "2.5rem" }} /><img src={likes} style={{ width: "16px" }} />&nbsp;&nbsp;{article.likes}
-                                                    <FaRegEye size="20px" style={{marginLeft: "2rem"}}/>&nbsp;&nbsp;{article.views}<img src={share} style={{ marginRight: "0.8rem", float: "right", width: "16px" }} /> 
-                                                    <Button size="sm" variant="info1">
-                                                   Awesome
-                                                </Button></p><br/>
-                                                <textarea type="text" rows="3" style={{width:"570px"}} placeholder=" Add comment"/>
-                                                <p>{data.totalComments} Comments</p>{data.comments.map((comment,id)=>{
-                                                    return(
-                                                        <Row style={{marginTop:"0.5rem",fontSize:"13px"}}>
-                                                          <Col md={2}>
-                                                          <img src={author} style={{ width: "40px", height: "40px" }} />
-                                                          </Col>
-                                                    <Col md={10} style={{marginLeft:"-2rem"}}>
-                                                            <p>{comment.name} &nbsp;&nbsp;{comment.time}</p>
-                                                            <p style={{marginTop:"-0.5rem"}}>{comment.text}</p>
-                                                            <div style={{ marginTop: "-0.5rem" }}><img src={upload} style={{ width: "16px"}} /> {comment.upload} &nbsp;&nbsp;<img src={download} style={{ width: "16px"}} /> {comment.download} </div><br/>
-                                                    </Col>
-                                                        </Row>
-                                                    )
-                                                     } ) }
+                                                <p style={{ marginTop: "-2rem" }}><img src={upload} style={{ width: "16px", marginRight: "2.5rem" }} /><img src={download} style={{ width: "16px", marginRight: "2.5rem" }} /><img src={likes} style={{ width: "16px" }} />&nbsp;&nbsp;{article.likes}
+                                                    <FaRegEye size="20px" style={{marginLeft: "2rem"}}/>&nbsp;&nbsp;{article.views}<Link to = {`${path}/issue`} style={{color:"black"}} ><GoIssueOpened size="20px" style={{marginLeft: "2rem"}}/></Link>
+                                           <img src={share} style={{ marginRight: "0.8rem", float: "right", width: "16px" }} /><img src={insight} style={{ marginRight: "1rem", float: "right", width: "16px" }} /> 
+                                                   </p><br/>
+                                                   <Route exact path={`${path}/issue`}>
+                                                       <IssueScreen/>
+                                                   </Route>
                                             </div>
                                         )
                                     }
@@ -102,5 +91,4 @@ export default class Description extends Component {
                 })}
             </div>
         )
-    }
 }
