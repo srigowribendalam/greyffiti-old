@@ -50,7 +50,7 @@ export default class Contact extends Component {
                                     onChange={this.onChange} /><br />
                                 <input class="form-control" type="email" style={{ borderRadius:"20px",fontSize: "14px", fontFamily: 'Poppins' }}  placeholder="Email Address" value={this.state.email} name="email"
                                     onChange={this.onChange} /><br />
-                                <textarea class="form-control" type="text" rows="3" style={{ borderRadius:"40px",fontSize: "14px", fontFamily: 'Poppins' }} placeholder="Say something..." value={this.state.message} name="message"
+                                <textarea class="form-control" type="text" rows="3" style={{ borderRadius:"20px",fontSize: "14px", fontFamily: 'Poppins' }} placeholder="Say something..." value={this.state.message} name="message"
                                     onChange={this.onChange} /><br/>
                                 <center>
                                     <Button variant="default" className="contact-button mr-4"><b>Send</b></Button>

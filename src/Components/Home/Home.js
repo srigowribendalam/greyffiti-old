@@ -57,8 +57,8 @@ export default function Home() {
           </Zoom>
         </Col>
       </Row>
-      <Link>
-       <center className="down-arrow" onClick={scrollToBottom}><FaArrowCircleDown size="40px"/></center></Link>
+      {/* <Link>
+       <center className="down-arrow" onClick={scrollToBottom}><FaArrowCircleDown size="40px"/></center></Link> */}
        <div>
          <CardComponent/></div>
          <div  className="work-together-image">
@@ -72,7 +72,7 @@ export default function Home() {
                 <Slide right>
                 <h4>Work Together</h4>
                 <p style={{color:"rgb(34, 129, 238)",marginTop:"1rem"}}>Like-minded people, are hard to find; but not on Greyffiti! Work with people whose work sparks the fire in you!</p><br/>
-                <Button variant="default" className="get-started">Get Started</Button>
+                {/* <Button variant="default" className="get-started">Get Started</Button> */}
                 </Slide>
                 </Col>
             </Row>
@@ -89,7 +89,7 @@ export default function Home() {
                 <Slide left>
                 <h4>Engage with your Peers</h4>
                 <p style={{color:"rgb(34, 129, 238)",marginTop:"2rem"}}>Stay up to date with your projects <br/>Connect Greyffiti with Microsoft Teams, Slack and other collabarative work tools to get notified on your projects</p><br/>
-                <Button variant="default" className="get-started">View Prices</Button>
+                {/* <Button variant="default" className="get-started">View Prices</Button> */}
                 </Slide>
                 </Col>
                 <Col md={6}>
@@ -151,7 +151,7 @@ export default function Home() {
                 <Slide right>
                 <h4>Work Together</h4>
                 <p style={{color:"rgb(34, 129, 238)",marginTop:"1rem"}}>Like-minded people, are hard to find; but not on Greyffiti! Work with people whose work sparks the fire in you!</p><br/>
-                <Button variant="default">Get Started</Button>
+                {/* <Button variant="default">Get Started</Button> */}
                 </Slide>
                 </Col>
             </Row>

@@ -36,7 +36,7 @@ export default function Pricing() {
         <p style={{fontSize:"12px"}}><FaRegSquare size="12px"/> Outstanding support</p>
         <p style={{fontSize:"12px"}}><FaRegSquare size="12px"/> Unlimited storage</p>
         <p style={{fontSize:"12px"}}><FaRegSquare size="12px"/> Best responsive website</p><br/>
-        <Button variant="default">Getting Started</Button>
+        <Button variant="default" style={{fontSize:"14.5px"}}>Getting Started</Button>
         </Card><br/>
       </Col>
       <Col md={4}xs={12}>
@@ -50,7 +50,7 @@ export default function Pricing() {
         <p style={{fontSize:"12px"}}><FaRegSquare size="12px"/> Outstanding support</p>
         <p style={{fontSize:"12px"}}><FaRegSquare size="12px"/> Unlimited storage</p>
         <p style={{fontSize:"12px"}}><FaRegSquare size="12px"/> Best responsive website</p><br/>
-        <Button variant="default">Getting Started</Button>
+        <Button variant="default" style={{fontSize:"14.5px"}}>Getting Started</Button>
         </Card><br/>
       </Col>
       <Col md={4} xs={12}>
@@ -64,7 +64,7 @@ export default function Pricing() {
         <p style={{fontSize:"12px"}}><FaRegSquare size="12px"/> Outstanding support</p>
         <p style={{fontSize:"12px"}}><FaRegSquare size="12px"/> Unlimited storage</p>
         <p style={{fontSize:"12px"}}><FaRegSquare size="12px"/> Best responsive website</p><br/>
-        <Button variant="default">Getting Started</Button>
+        <Button variant="default" style={{fontSize:"14.5px"}}>Getting Started</Button>
         </Card><br/>
       </Col>
     </Row>
