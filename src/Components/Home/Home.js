@@ -137,7 +137,7 @@ export default function Home() {
           <div>
           <img className="contact-image" src={contact} />
           <div className="contact1">
-            <div style={{display:"flex"}}><h5>Make work more fun together with Greyffiti!</h5> <Button variant="default" style={{marginLeft:"3rem"}}>Learn more</Button></div>
+            <div style={{display:"flex"}}><h5>Make work more fun together with Greyffiti!</h5> </div>
           </div>
           </div>
           <div  className="work-together-image">
