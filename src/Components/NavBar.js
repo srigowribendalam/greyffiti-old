@@ -78,8 +78,8 @@ export default class NavBar extends Component {
           <ul >
             <li className="margintop" >
             <Link to="/" style={{marginLeft:"5.5rem"}} className='nav-links'>Home</Link>
-              <Link to="/aboutus" className='nav-links '>About us</Link>
-              <Link to="/features"  className='nav-links  '>Features</Link>
+              {/* <Link to="/aboutus" className='nav-links '>About us</Link>
+              <Link to="/features"  className='nav-links  '>Features</Link> */}
               <Link to="/pricing" className='nav-links '>Pricing</Link>
           {/* <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
             <li >

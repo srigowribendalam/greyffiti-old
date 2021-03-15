@@ -23,13 +23,14 @@
 
   }
   .text-area{
-    width:280px;
-    margin-bottom: 20px;
-    border-color:1px solid grey; 
+    width:300px;
+    margin-bottom: 40px;
+    border-color:darkblue ;
     overflow-y: scroll;
     height: 90px;
     background-size: cover;
     resize:none; 
+    z-index: 1;
    }
    .contact-button{
     background-color: #4FD84F; 

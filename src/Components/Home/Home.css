@@ -48,8 +48,9 @@ top:-0.5rem;
   height:220px;
 }
 .box1:hover{
-  background-image:linear-gradient(to top right, rgb(2, 2, 36),#1C7DE0);
-  color:white;
+  background-color: rgb(253, 239, 113);
+ color:black;
+  filter:invert(100%);
 }
 .work-together-image{
   margin-top:4rem;
@@ -57,9 +58,9 @@ top:-0.5rem;
   margin-right:10rem;
  }
 .work{
-  height:100%;
-  width:100%;
-  margin-top:-1.5rem;
+  height:95%;
+  width:95%;
+  margin-top:-1.7rem;
   margin-left:-3rem;
 }
 .work-together{
@@ -93,9 +94,9 @@ top:-0.5rem;
   width:80px;
   height:80px;
 }
-.card_icon:hover{
- fill:white;
-}
+/* .card_icon:hover{
+ filter:invert(100%);
+} */
 .engage-top{
   margin-top:3rem;
 }
@@ -149,15 +150,15 @@ font-style: poppins;
 .text-color{
     font-size:14.5px;
 }
-.text-color:hover{
+/* .text-color:hover{
     color:white;
-}
+} */
 .text-colors{
   font-size:14.5px;
 }
-.text-colors:hover{
+/* .text-colors:hover{
   color:white;
-}
+} */
 .box{
     padding:20px;
     border-radius: 8px;

@@ -184,29 +184,32 @@ export default function TermsConditions() {
         - Username Policy<br />
         - Data Privacy</p><br />
       </div>
-      <div>
-      <img src={curve} style={{width:"500px",height:"500px"}} />
+     
+      <div style={{height:"500px"}}>    
+          <img src={curve} style={{width:"500px",height:"500px"}} />
           <img src={circle1} style={{float:"right",marginRight:"5rem",marginTop:"4rem",width:"4%"}}/>
-            <div style={{marginTop:"-20rem",marginLeft:"10rem",marginRight:"13rem"}}>
+          <div style={{marginTop:"-20rem",marginLeft:"10rem",marginRight:"13rem"}}>
             <Row className="row" >
               <Col md={4} style={{color:"white"}}>
                 <div style={{marginLeft:"4rem"}}>
-              <h6><b>Contacts</b></h6>
-                <img src={phone} style={{marginLeft:"-0.1rem",marginTop:"2rem",width:"20px"}}/>
-                <div style={{marginLeft:"2rem",marginTop:"-2rem"}}>
-                <p>Have questions?</p>
-                <h6 style={{marginTop:"-1rem"}}><b>+919966908431</b></h6>
+              <h6 style={{marginTop:"2.7rem"}}><b>Contacts</b></h6>
+                {/* <img src={phone} style={{marginLeft:"-0.1rem",marginTop:"2rem",width:"20px"}}/> */}
+             <div style={{lineHeight:"30px"}}>
+                <p>Have questions?<br/>
+                E-mail: info@greyffiti.com</p>
                 </div>
-                <p>E-mail: info@graffiti.com</p>
                 </div>
               </Col>
               <Col md={5}>
-                <div style={{marginLeft:"2rem"}}>
+                <div style={{marginLeft:"5rem"}}>
                 <h6><b>Links</b></h6><br/>
                 <Row>
-                  <Col md={8}>
+                  <Col md={12}>
                 <div style={{lineHeight:"12px"}}>
-                <p>About company</p>
+                  <Link to ="/contact" style={{color:"black"}}>
+                <p>Contact Us</p></Link>
+                <p>FAQ</p>
+                <p>Support</p>
                 <Link to="/terms" style={{color:"black"}}>
                 <p>Terms and conditions</p>
                 </Link>
@@ -215,14 +218,6 @@ export default function TermsConditions() {
                 </Link>
                 </div>
                   </Col>
-                  <Col md={4}>
-                <div style={{lineHeight:"12px",marginLeft:"-2rem"}}>
-                  <Link to="/pricing" style={{color:"black"}}>
-                <p>Pricing plans</p>
-                </Link>
-                <p>Contact</p>
-                </div>
-                    </Col>
                 </Row>
                 </div>
               </Col>
