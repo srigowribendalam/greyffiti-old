@@ -45,7 +45,7 @@ top:-0.5rem;
 .box1{
   padding:20px;
   border-radius: 8px;
-  height:250px;
+  height:220px;
 }
 .box1:hover{
   background-image:linear-gradient(to top right, rgb(2, 2, 36),#1C7DE0);

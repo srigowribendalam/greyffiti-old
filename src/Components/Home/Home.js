@@ -88,7 +88,7 @@ export default function Home() {
               <Col md={6} className="engage-top">
                 <Slide left>
                 <h4>Engage with your Peers</h4>
-                <p style={{color:"rgb(34, 129, 238)",marginTop:"2rem"}}>Stay up to date with your projects <br/>Connect Graphiti with Microsoft Teams, Slack and other collabarative work tools to get notified on your projects</p><br/>
+                <p style={{color:"rgb(34, 129, 238)",marginTop:"2rem"}}>Stay up to date with your projects <br/>Connect Greyffiti with Microsoft Teams, Slack and other collabarative work tools to get notified on your projects</p><br/>
                 <Button variant="default" className="get-started">View Prices</Button>
                 </Slide>
                 </Col>

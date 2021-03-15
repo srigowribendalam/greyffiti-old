@@ -1,7 +1,7 @@
 import { React, Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Form, Button, Row, Col } from "react-bootstrap";
-import contact from '../images/landingpage-image.svg';
+import contact from '../images/Contact-page.svg';
 import './Contact.css';
 import NavBar from '../NavBar';
 

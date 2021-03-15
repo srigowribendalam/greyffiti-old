@@ -57,7 +57,7 @@
 import { React, Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Button, Navbar } from "react-bootstrap";
-import logo from './images/Greyffiti-13.jpg';
+import logo from './images/Greyffiti Logo.svg';
 import './NavBar.css';
 
 export default class NavBar extends Component {
@@ -71,13 +71,13 @@ export default class NavBar extends Component {
       <Navbar className="nav-height">
         <nav className="nav">
           <Link to="/">
-            <img className="navbar-logo" src={logo} style={{marginLeft:"-2rem",width:"175px",marginTop:"-3.3rem"}}/></Link>
+            <img className="navbar-logo" src={logo} style={{marginLeft:"-1.4rem",width:"100px",marginTop:"1rem"}}/></Link>
           {/* <div className="menu-icon" onClick={this.handleClick}>
             <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
           </div> */}
           <ul >
             <li className="margintop" >
-            <Link to="/" style={{marginLeft:"7.5rem"}} className='nav-links'>Home</Link>
+            <Link to="/" style={{marginLeft:"5.5rem"}} className='nav-links'>Home</Link>
               <Link to="/aboutus" className='nav-links '>About us</Link>
               <Link to="/features"  className='nav-links  '>Features</Link>
               <Link to="/pricing" className='nav-links '>Pricing</Link>

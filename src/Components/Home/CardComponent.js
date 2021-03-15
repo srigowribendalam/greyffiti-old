@@ -61,7 +61,7 @@ export default function CardComponent() {
           <Card className="card-box">
             <img src={workanywhere} className="card_image" />
             <h4>Work Anywhere</h4>
-            <p className="text-color">With Graffiti, location is no more a boundary!</p>
+            <p className="text-color">With Greyffiti, location is no more a boundary!</p>
           </Card><br/>
         </Slide>
       </Col>
@@ -70,7 +70,7 @@ export default function CardComponent() {
           <Card className="card-box">
           <img src={engageicon} className="card_image" />
             <h4>Engage on the go</h4>
-            <p className="text-color">Engagement works on your side, and Graffiti makes it so much easier!</p>
+            <p className="text-color">Engagement works on your side, and Greyffiti makes it so much easier!</p>
           </Card></Slide>
       </Col>
     </Row>
