@@ -2,6 +2,7 @@ import { React } from 'react';
 import { Row, Col, Card, Button } from "react-bootstrap";
 import { Link } from 'react-router-dom';
 import NavBar from '../NavBar';
+import Footer from '../Footer';
 import landing from '../images/landing-image.svg';
 import work from '../images/Work-Together.svg';
 import works from '../images/howitworks.svg';
@@ -85,8 +86,8 @@ export default function Home() {
           </div>
           <div className="engage">
             <Row style={{width:"100%"}}>
-              <Col md={6} className="engage-top">
-                <Slide left>
+              <Col md={6}>
+                <Slide left  className="engage-top">
                 <h4>Engage with your Peers</h4>
                 <p style={{color:"rgb(34, 129, 238)",marginTop:"2rem"}}>Stay up to date with your projects <br/>Connect Greyffiti with Microsoft Teams, Slack and other collabarative work tools to get notified on your projects</p><br/>
                 {/* <Button variant="default" className="get-started">View Prices</Button> */}
@@ -99,6 +100,23 @@ export default function Home() {
               </Col>
             </Row>
           </div><br/><br/><br/>
+          {/* <div  className="work-together-image">
+            <Row className="row" style={{width:"100%"}}>
+             
+              <Col md={4} xs={12} className="work-together">
+                <Slide right>
+                <h4>Engage with your peers</h4>
+                <p style={{color:"rgb(34, 129, 238)",marginTop:"2rem"}}>Stay up to date with your projects <br/>Connect Greyffiti with Microsoft Teams, Slack and other collabarative work tools to get notified on your projects</p><br/>
+
+                </Slide>
+                </Col>
+                <Col md={8} xs={12}>
+                <Zoom>
+              <img className="work" src={engage1} />
+              </Zoom>
+              </Col>
+            </Row>
+          </div> */}
           <div className="four-boxes">
            <Row className="row">
               <Col md={4} xs={12}>
@@ -140,27 +158,12 @@ export default function Home() {
             <div style={{display:"flex"}}><h5>Make work more fun together with Greyffiti!</h5> </div>
           </div>
           </div>
-          <div  className="work-together-image">
-            <Row className="row" style={{width:"100%"}}>
-              <Col md={8} xs={12}>
-                <Zoom>
-              <img className="work" src={work} />
-              </Zoom>
-              </Col>
-              <Col md={4} xs={12} className="work-together">
-                <Slide right>
-                <h4>Work Together</h4>
-                <p style={{color:"rgb(34, 129, 238)",marginTop:"1rem"}}>Like-minded people, are hard to find; but not on Greyffiti! Work with people whose work sparks the fire in you!</p><br/>
-                {/* <Button variant="default">Get Started</Button> */}
-                </Slide>
-                </Col>
-            </Row>
+           
             {/* <center>
             <Button style={{marginTop:"-2rem"}} variant="default">Download</Button>
             </center>    */}
-          </div>
         
-          <div style={{height:"500px"}}>    
+          {/* <div style={{height:"500px"}}>    
           <img src={curve} style={{width:"500px",height:"500px"}} />
           <img src={circle1} style={{float:"right",marginRight:"5rem",marginTop:"4rem",width:"4%"}}/>
           <div style={{marginTop:"-20rem",marginLeft:"10rem",marginRight:"13rem"}}>
@@ -168,7 +171,7 @@ export default function Home() {
               <Col md={4} style={{color:"white"}}>
                 <div style={{marginLeft:"4rem"}}>
               <h6 style={{marginTop:"2.7rem"}}><b>Contacts</b></h6>
-                {/* <img src={phone} style={{marginLeft:"-0.1rem",marginTop:"2rem",width:"20px"}}/> */}
+                <img src={phone} style={{marginLeft:"-0.1rem",marginTop:"2rem",width:"20px"}}/>
              <div style={{lineHeight:"30px"}}>
                 <p>Have questions?<br/>
                 E-mail: info@greyffiti.com</p>
@@ -206,9 +209,10 @@ export default function Home() {
               <img src={circle3} style={{float:"right",width:"1%",marginRight:"-0.5rem",marginTop:"3rem"}}/>
               <img style={{ width: "8%", height: "5%", marginLeft: "20rem" }} src={bar} />
               <img src={circle4} style={{float:"right",marginTop:"4rem",marginRight:"18rem",width:"8%"}}/>
+          </div> 
+          <div>*/}
+          <div><Footer/></div>
           </div>
-          </div>
-    </div>
   );
 };
 

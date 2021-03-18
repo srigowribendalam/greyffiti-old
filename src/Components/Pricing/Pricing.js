@@ -17,17 +17,18 @@ import circle1 from '../images/circle1.svg';
 import circle2 from '../images/circle2.svg';
 import circle3 from '../images/circle3.svg';
 import circle4 from '../images/circle4.svg';
+import Footer from '../Footer';
 
 export default function Pricing() {
   return (
       <div>
           <NavBar />
-         <center> <img src={pricing} style={{width:"76%"}}/></center>
+         <center style={{marginTop:"4rem"}}> <img src={pricing} style={{width:"100%"}}/></center>
     <div className="basic-card">
     <Row className="row">
       <Col md={4} xs={12}>
         <Card className="_card">
-        <span><h5>Teams</h5><Button variant="default1" style={{float:"right",marginTop:"-2rem",fontSize:"12px"}}><b>BEST CHOICE</b></Button></span>
+        <h5>Teams</h5>
         <img style={{width:"15%",height:"15%",marginBottom:"0.2rem"}} src={progressbar}/>
         <h2><b>15$</b></h2>
         <p style={{fontSize:"11px",marginTop:"-0.5rem"}}>Per month</p><br/>
@@ -70,7 +71,7 @@ export default function Pricing() {
     </Row>
     </div>
     
-    <div style={{height:"500px"}}>    
+    {/* <div style={{height:"500px"}}>    
           <img src={curve} style={{width:"500px",height:"500px"}} />
           <img src={circle1} style={{float:"right",marginRight:"5rem",marginTop:"4rem",width:"4%"}}/>
           <div style={{marginTop:"-20rem",marginLeft:"10rem",marginRight:"13rem"}}>
@@ -78,7 +79,6 @@ export default function Pricing() {
               <Col md={4} style={{color:"white"}}>
                 <div style={{marginLeft:"4rem"}}>
               <h6 style={{marginTop:"2.7rem"}}><b>Contacts</b></h6>
-                {/* <img src={phone} style={{marginLeft:"-0.1rem",marginTop:"2rem",width:"20px"}}/> */}
              <div style={{lineHeight:"30px"}}>
                 <p>Have questions?<br/>
                 E-mail: info@greyffiti.com</p>
@@ -117,6 +117,9 @@ export default function Pricing() {
               <img style={{ width: "8%", height: "5%", marginLeft: "20rem" }} src={bar} />
               <img src={circle4} style={{float:"right",marginTop:"4rem",marginRight:"18rem",width:"8%"}}/>
           </div>
+          </div> */}
+          <div>
+            <Footer/>
           </div>
     </div>
   );

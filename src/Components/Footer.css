@@ -1,0 +1,134 @@
+.footer-top{
+height:500px;
+}
+.curve{
+    width:500px;
+    height:500px;
+}
+.circle1{
+    float:right;
+    margin-right:5rem;
+    margin-top:4rem;
+    width:4%;
+}
+.footer{
+    margin-top:-20rem;
+    margin-left:10rem;
+    margin-right:13rem;
+}
+.m-left{
+    margin-left: 4rem;
+}
+.contact-Top{
+    margin-top: 2rem;
+}
+.line-Height{
+    line-height:30px;
+}
+.links-left{
+    margin-left: 5rem;
+}
+.links-line-height{
+    line-height: 12px;
+}
+.email-box{
+    border-radius:40px !important;
+    border-color:darkblue !important;
+    color:darkblue !important;
+    width:250px;
+}
+.emailicon{
+    margin-left:200px;
+    margin-top:-4.1rem;
+    width:20px;
+}
+.circle2{
+    float:right;
+    margin-right:-4rem;
+    width:4%;
+}
+.circle3{
+    float:right;
+    width:1%;
+    margin-right:-0.5rem;
+    margin-top:2rem;
+}
+.bar{
+    width:8%;
+    height:5%;
+    margin-left:20rem;
+}
+.circle4{
+    float:right;
+    margin-top:1rem;
+    margin-right:18rem;
+    width:8%;
+}
+.footer-links{
+    padding:20px;
+}
+@media screen and (max-width:960px){
+    .curve{
+        width:375px;
+        height:350px;
+    }
+    .circle1{
+        float:right;
+        margin-right:3rem;
+        margin-top:4rem;
+        width:4%;
+    }
+    .footer{
+        margin-top:-5rem;
+        margin-left:0.1rem;
+        margin-right:2rem;
+    }
+    .m-left{
+        margin-left: 1rem;
+    }
+    .contact-Top{
+        margin-top: -2rem;
+    }
+    .links-left{
+        margin-left: 1rem;
+    }
+    .email-box{
+        border-radius:40px !important;
+        border-color:darkblue !important;
+        color:darkblue !important;
+        width:250px;
+    }
+    .emailicon{
+        margin-left:200px;
+        margin-top:-4rem;
+        width:20px;
+    }
+    .subscribe{
+        margin-left:1rem;
+    }
+   
+    .circle2{
+        float:right;
+        margin-right:2rem;
+        width:5%;
+        margin-top:-2.3rem;
+    }
+    .circle3{
+        float:right;
+        width:2%;
+        margin-right:4rem;
+        margin-top:-1.5rem;
+    }
+    .bar{
+        width:8%;
+        height:5%;
+        margin-left:2.5rem;
+        margin-top:-5rem;
+    }
+    .circle4{
+        float:right;
+        margin-top:-2rem;
+        margin-right:18rem;
+        width:8%;
+    }
+}

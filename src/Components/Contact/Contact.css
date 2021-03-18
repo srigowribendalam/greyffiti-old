@@ -1,16 +1,4 @@
-.contact-card{
-    width: 1000px;
-    height:33.3rem;
-    margin-top: 2.8rem;
-  }
-.contactleft {
-    position:absolute;
-    left:24rem;
-    top: 3rem;
-    color:white;
-    font-size: 100px;
-  }
-  .form-text{
+.form-text{
     position:absolute;
     left:11rem;
     top:10rem;
@@ -48,17 +36,26 @@
     border-color: #4FD84F;
     color:white;
   }
+  .contactus-top{
+    margin-left:10rem;
+    margin-top:5rem;
+  }
+  .row-top{
+  margin-top:7rem;
+  width:100%;
+  }
  @media screen and (max-width: 960px) {
-    .contact-card{
-        width: 300%;
-        height: 50rem;
-        margin-top: 2.5rem;
-      }
-    .contactleft {
+       .contactus-top{
+        margin-left:2rem;
+        margin-top:2rem;
+      } 
+      .form-text{
         position:absolute;
-        left:16rem;
-        margin-top: -51.8rem;
+        left:3rem;
+        top:5rem;
         color:white;
-        font-size: 40vw;
-       }   
+      } 
+      .image{
+        margin-top:17rem;
+      }
  }

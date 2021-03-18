@@ -1,8 +1,10 @@
 .home-image1{
   float:right;
-  margin-top:3.5rem;
+  margin-top:5rem;
   width:90%;
   height:85%;
+  margin-left:0rem;
+  margin-bottom:3rem;
 }
 .text-heading{
 margin-top:8rem;
@@ -58,10 +60,11 @@ top:-0.5rem;
   margin-right:10rem;
  }
 .work{
-  height:95%;
-  width:95%;
-  margin-top:-1.7rem;
-  margin-left:-3rem;
+  height:85%;
+  width:85%;
+  margin-top:-1.5rem;
+  margin-left:-1.5rem;
+  margin-bottom: 1.3rem;
 }
 .work-together{
   margin-left:-2rem;
@@ -83,10 +86,11 @@ top:-0.5rem;
   margin-right:10rem;
 }
 .engage-image{
-  margin-top:0.5rem;
-  width:110%;
-  height:130%;
-  margin-left:0.2rem;
+  margin-top:-2rem;
+  width:105%;
+  height:125%;
+  margin-left:-3rem;
+  margin-bottom:3rem;
 }
 .card_icon{
   margin-top:-0.5rem;
@@ -238,13 +242,14 @@ font-style: poppins;
   color:darkblue;
 }
 @media screen and (max-width:960px){
-  .home-image{
-    margin-top:1rem;
+  .home-image1{
+    margin-top:0.5rem;
     width:100%;
     height:100%;
+    margin-left:2rem;
 }
 .text-heading{
-  margin-top:2rem;
+  margin-top:3.5rem;
   margin-left:2rem;
   color:#062C51;
   font-style: poppins;
@@ -267,9 +272,10 @@ font-style: poppins;
    margin-right:1rem;
   }
   .work{
+    margin-top:0.1rem;
     height:100%;
     width:100%;
-    margin-left:1rem;
+    margin-left:0.3rem;
   }
   .work-together{
     margin-left:0.5rem;
@@ -279,7 +285,7 @@ font-style: poppins;
   .how-it-works{
     text-align:center;
     position:absolute;
-    margin-top:-6rem;
+    margin-top:-4.8rem;
     margin-left: 2rem;
     margin-right: 2rem;
   }
@@ -293,8 +299,8 @@ font-style: poppins;
     margin-right:1rem;
   }
   .engage-image{
-    width:90%;
-    height:90%;
+    width:110%;
+    height:130%;
     margin-left:2rem;
     margin-top:1rem;
   }
@@ -317,7 +323,7 @@ font-style: poppins;
   }
   .contact1{
     position:absolute;
-    margin-top:-2rem;
+    margin-top:-3.6rem;
     margin-left: 2rem;
   }
   .contact_btn{

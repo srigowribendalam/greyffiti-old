@@ -68,27 +68,25 @@ export default class NavBar extends Component {
   }
   render() {
     return (
-      <Navbar className="nav-height">
+      <Navbar bg="white"  className="nav-height" fixed="top">
         <nav className="nav">
           <Link to="/">
-            <img className="navbar-logo" src={logo} style={{marginLeft:"-1.4rem",width:"100px",marginTop:"1rem"}}/></Link>
-          {/* <div className="menu-icon" onClick={this.handleClick}>
+            <img className="navbar-logo" src={logo} style={{marginLeft:"-0.4rem",width:"100px",marginTop:"0.7rem"}}/></Link>
+          <div className="menu-icon" onClick={this.handleClick}>
             <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
-          </div> */}
-          <ul >
-            <li className="margintop" >
-            <Link to="/" style={{marginLeft:"5.5rem"}} className='nav-links'>Home</Link>
-              {/* <Link to="/aboutus" className='nav-links '>About us</Link>
-              <Link to="/features"  className='nav-links  '>Features</Link> */}
-              <Link to="/pricing" className='nav-links '>Pricing</Link>
-          {/* <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
-            <li >
-            <Link to="/" style={{marginLeft:"5rem"}} className='nav-links'>Home</Link>
+          </div>
+          {/* <ul >
+            <li  >
+            <Link to="/" style={{marginLeft:"7.5rem"}} className='nav-links'>Home</Link>
               <Link to="/aboutus" className='nav-links '>About us</Link>
               <Link to="/features"  className='nav-links  '>Features</Link>
-              <Link to="/pricing" className='nav-links '>Pricing</Link>
-              <Link style={{color:"white"}} className='nav-links'>Support</Link>
-              <Link style={{color:"white"}}  className='nav-links nav-marginright'>My Account</Link> */}
+              <Link to="/pricing" className='nav-links '>Pricing</Link> */}
+          <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
+            <li>
+            <Link to="/" className='nav-links'>Home</Link>
+              {/* <Link to="/aboutus" className='nav-links '>About us</Link>
+              <Link to="/features"  className='nav-links  '>Features</Link> */}
+              <Link to="/pricing"  className='nav-links '>Pricing</Link>
               {/* <Link to="/login">
               <Button variant="primary">Login</Button></Link>
               <text> &nbsp;or</text>
