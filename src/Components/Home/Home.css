@@ -31,14 +31,17 @@ top:-0.5rem;
 .card-box{
   padding:20px;
   border-radius: 8px;
-  height:200px;
+  height:220px;
 }
 .card-box:hover{
-  background-image:linear-gradient(to top right, rgb(2, 2, 36),#1C7DE0);
-  color:white;
+  /* background-image:linear-gradient(to top right, rgb(2, 2, 36),#1C7DE0);
+  color:white; */
+  background-color: rgb(253, 239, 113);
+  color:black;
+   filter:invert(100%);
 }
 .card_image{
-  width:40px;
+  width:80px;
   margin-bottom:0.5rem;
 }
 .card_image:hover{

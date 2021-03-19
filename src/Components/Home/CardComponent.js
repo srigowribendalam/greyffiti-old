@@ -4,9 +4,9 @@ import { Row, Col, Card, Button } from "react-bootstrap";
 import './Home.css';
 import { FaRegSquare } from 'react-icons/fa';
 import { Zoom, Slide } from 'react-reveal';
-import collaborate from '../images/collaborate.svg';
-import workanywhere from '../images/workanywhere.svg';
-import engageicon from '../images/engageicon.svg';
+import collaborate from '../images/collaborate1.svg';
+import workanywhere from '../images/workanywhere1.svg';
+import engageicon from '../images/engageicon1.svg';
 
 export default function CardComponent() {
   return (

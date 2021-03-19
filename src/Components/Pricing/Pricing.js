@@ -5,7 +5,7 @@ import './Pricing.css';
 import progressbar from '../images/progressbar.svg';
 import { FaRegSquare } from 'react-icons/fa';
 import { Zoom, Slide } from 'react-reveal';
-import pricing from '../images/Pricing-page.jpg';
+import pricing from '../images/Pricing-page.svg';
 import collaborate from '../images/collaborate.svg';
 import workanywhere from '../images/workanywhere.svg';
 import engageicon from '../images/engageicon.svg';
